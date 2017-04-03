@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webpack Boilerplate</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+  </head>
+  <body>
+    <div class="video-section jumbotron jumbotron-fluid mb-0 py-0 d-flex justify-content-center">
+      <div class="video-wrapper">
+        <video id="main-video" class="video-js vjs-fluid" controls preload="auto"
+        poster="#" data-setup="{}">
+        <source src="http://assets3.ign.com/videos/zencoder/2016/06/15/640/7080c56a76e2b74ec8ecfe4c224441d4-500000-1466028542-w.mp4" type='video/mp4'>
+          <p class="vjs-no-js">This video is not support by your browser.</p>
+        </video>
+      </div>
+    </div>
+    <div class="video-details">
+      <small>
+        <p class="text-uppercase d-inline-block pr-3 text-muted">tag name</p>
+        <p class="d-inline-block pr-3 text-muted">03.30.17</p>
+        <p class="d-inline-block text-muted">3:00 PM</p>
+      </small>
+      <h3>This is a video title</h3>
+      <small>
+        <p>This is a description of the vido. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+      </small>
+    </div>
+    <div class="container color-picker">
+      <hr>
+      <p id="test-click">Change player colors</p>
+      <input  id="picker" type="color" value="#ff0000" style="width: 150px;" />
+      <button class="btn btn-primary" id="changePlayerColor">Change Player Color</button>
+    </div>
+    <br><br>
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+  </body>
+</html>

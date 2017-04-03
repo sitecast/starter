@@ -1,0 +1,26 @@
+.video-section {
+  background-color: black;
+}
+
+.video-wrapper {
+  width: 100%;
+}
+
+.video-details {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+  .video-wrapper {
+    width: 992px;
+    max-width: 100%;
+  }
+
+  .video-details {
+    max-width: 992px;
+  }
+}
