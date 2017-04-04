@@ -1,9 +1,15 @@
+body {
+  background: black;
+  color: white;
+}
+
 .video-section {
   background-color: black;
 }
 
 .video-wrapper {
   width: 100%;
+  border: 1px solid #222;
 }
 
 .video-details {
@@ -23,4 +29,59 @@
   .video-details {
     max-width: 992px;
   }
+}
+
+.card-black {
+  background: black;
+  border-radius: 0px;
+  margin-bottom: 2rem;
+}
+
+.card-content-padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.section-line-left {
+  flex-grow: 1;
+  height: 2px;
+  background: linear-gradient(to left, #0275d8 , #f0ad4e);
+}
+
+.section-line-right {
+  flex-grow: 1;
+  height: 2px;
+  background: linear-gradient(to right, #0275d8 , #f0ad4e);
+}
+
+.video-thumbnail:hover .thumbnail-play-button,.video-thumbnail {
+  background-color: #0275d8;
+}
+
+.thumbnail-play-button {
+    margin-left: -1em;
+    margin-top: -1em;
+    width: 2em;
+    height: 2em;
+    border: none;
+    border-radius: 50%;
+    background-color: #0275d8;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 1.2em;
+    border-radius: 100%;
+    -webkit-transition: border-color .4s,outline .4s,background-color .4s;
+    -moz-transition: border-color .4s,outline .4s,background-color .4s;
+    -ms-transition: border-color .4s,outline .4s,background-color .4s;
+    -o-transition: border-color .4s,outline .4s,background-color .4s;
+    transition: border-color .4s,outline .4s,background-color .4s
+}
+
+
+.video-thumbnail{
+  position: relative;
+  height: 100%;
 }
