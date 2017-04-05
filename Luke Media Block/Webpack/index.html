@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webpack Boilerplate</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="row">
+          <video id="my-video" class="video-js col-sm-12 col-lg-6" controls preload="auto"
+           poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+           <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+           <p class="vjs-no-js">
+             To view this video please enable JavaScript, and consider upgrading to a web browser that
+             <a href="http://videojs.com/html5-video-support/" target="_blank">supports HT3ML5 video</a>
+           </p>
+          </video>
+          <script src="http://vjs.zencdn.net/5.19.0/video.js"></script>
+          <div class="col-lg-5 col-md-12 col-sm-12 vid-info">
+            <h3>Episode Title</h3>
+            <p> Elit slow-carb godard iPhone, in before they sold out kitsch id echo park. Kombucha gochujang nostrud, thundercats duis portland pok pok franzen prism hoodie nisi semiotics literally. Biodiesel nulla vaporware, godard vape ennui est ex laborum raw denim hell of crucifix la croix glossier. Affogato ethical ut snackwave, polaroid dolore gastropub irony keytar kombucha bicycle rights jianbing cliche swag.</p>
+            <small class="text-muted "><i><span class="runtime">41:23</span> | <span class="post-date">03/31/2017</span> | <span>CC</span></i></small>
+            <nav class="breadcrumb pl-0 pt-3 hidden-md-down">
+              <a class="breadcrumb-item" href="#">Better Call Saul</a>
+              <a class="breadcrumb-item" href="#">Season One</a>
+              <a class="breadcrumb-item active" href="#">Episode 1</a>
+            </nav>
+            <div class="social">
+              <button type="button" class="btn btn-secondary mr-1" data-toggle="tooltip" data-placement="bottom" title="Share"><i class="fa fa-share-alt" aria-hidden="true"></i></button>
+              <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Follow us on Twitter"><i class="fa fa fa-twitter" aria-hidden="true"></i></button>
+              <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Follow us on Facebook"><i class="fa fa fa-facebook-official" aria-hidden="true"></i></button>
+              <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Save for later"><i class="fa fa-bookmark" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SMALL VIEW ONLY -->
+      <div class="hidden-md-up">
+        <div class="card card-inverse mt-3">
+          <img class="card-img" src="img/episode1.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+            <h4 class="card-title animated fadeIn">Episode 1</h4>
+          </div>
+        </div>
+        <div class="card card-inverse mt-3">
+          <img class="card-img" src="img/episode2.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+            <h4 class="card-title animated fadeIn">Episode 2</h4>
+          </div>
+        </div>
+        <div class="card card-inverse mt-3">
+          <img class="card-img" src="img/episode3.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+            <h4 class="card-title animated fadeIn">Episode 3</h4>
+          </div>
+        </div>
+        <div class="card card-inverse mt-3">
+          <img class="card-img" src="img/episode4.jpg" alt="Card image">
+          <div class="card-img-overlay">
+            <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+            <h4 class="card-title animated fadeIn">Episode 4</h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- MEDIUM VIEW ONLY  -->
+      <div class="hidden-lg-up hidden-sm-down">
+        <hr>
+        <div class="row">
+          <div class="col-md-6 card border-0 text-center" style="width: 20rem;">
+            <img class="card-img-top" src="img/episode1.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Episode 2</h4>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+          <div class="col-md-6 card border-0 text-center" style="width: 20rem;">
+            <img class="card-img-top" src="img/episode3.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Episode 3</h4>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+          <div class="col-md-6 card border-0 text-center mt-3" style="width: 20rem;">
+            <img class="card-img-top" src="img/episode2.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Episode 4</h4>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+          <div class="col-md-6 card border-0 text-center mt-3" style="width: 20rem;">
+            <img class="card-img-top" src="img/episode4.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Episode 5</h4>
+              <a href="#" class="btn btn-primary">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LARGE VIEW ONLY -->
+      <div class="hidden-md-down mt-3 mb-5">
+        <h3 class="more-episodes">Up Next</h3>
+        <div class="show-row-first d-flex flex-row">
+          <div class="card card h-25 w-25 card-inverse p-0">
+            <img class="card-img img-fluid" src="img/episode1.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+              <h4 class="card-title animated fadeIn">Episode 2</h4>
+            </div>
+          </div>
+          <div class="card card h-25 w-25  card-inverse p-0">
+            <img class="card-img img-fluid" src="img/episode2.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+              <h4 class="card-title animated fadeIn">Episode 3</h4>
+            </div>
+          </div>
+          <div class="card card h-25 w-25 card-inverse p-0">
+            <img class="card-img img-fluid" src="img/episode3.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <i class="fa fa-play-circle-o fa-2x float-left player-icon" aria-hidden="true"></i>
+              <h4 class="card-title animated fadeIn">Episode 4</h4>
+            </div>
+          </div>
+        </div>
+        <h3 class="mt-5">More Shows</h3>
+        <div class="more-content d-sm-flex flex-row mb-4">
+          <div class="card  h-25 w-25 card-inverse p-0">
+            <img class="card-img img-fluid" src="img/breaking.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title animated fadeIn">Breaking Bad</h4>
+              <button type="button" class="btn btn-secondary btn-sm">WATCH NOW</button>
+            </div>
+          </div>
+          <div class="card card h-25 w-25  card-inverse p-0">
+            <img class="card-img img-fluid" src="img/walking-dead.jpg" alt="Card image">
+            <div class="card-img-overlay w-100">
+              <h4 class="card-title animated fadeIn">The Walking Dead</h4>
+              <button type="button" class="btn btn-secondary btn-sm">WATCH NOW</button>
+            </div>
+          </div>
+          <div class="card card h-25 w-25  card-inverse p-0 ">
+            <img class="card-img img-fluid" src="img/humans.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title animated fadeIn">Humans</h4>
+              <button type="button" class="btn btn-secondary btn-sm">WATCH NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="more-content d-flex flex-row">
+          <div class="card card h-25 w-25  card-inverse p-0">
+            <img class="card-img img-fluid" src="img/madmen.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title animated fadeIn">Madmen</h4>
+              <button type="button" class="btn btn-secondary btn-sm">WATCH NOW</button>
+            </div>
+          </div>
+          <div class="card card h-25 w-25  card-inverse p-0">
+            <img class="card-img img-fluid" src="img/son.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title animated fadeIn">The Son</h4>
+              <button type="button" class="btn btn-secondary btn-sm">WATCH NOW</button>
+            </div>
+          </div>
+          <div class="card card h-25 w-25  card-inverse p-0">
+            <img class="card-img img-fluid" src="img/halt.jpg" alt="Card image">
+            <div class="card-img-overlay">
+              <h4 class="card-title animated fadeIn">Halt and Catch Fire</h4>
+              <button type="button" class=" btn btn-secondary btn-sm">WATCH NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+  </body>
+</html>
