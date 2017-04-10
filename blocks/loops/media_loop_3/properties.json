@@ -1,6 +1,6 @@
 {
-  "title": "Media Loop 1",
-    "description": "Media loop with grid layout",
+  "title": "Media Loop 3",
+    "description": "Media loop with grid layout, description content only visible on hover",
     "content": {
     	"title": "Video block"
     },

@@ -1,6 +1,6 @@
 {
-  "title": "Media Loop 1",
-    "description": "Media loop with grid layout",
+  "title": "Media player block",
+    "description": "Video.js media player with responsive sizing",
     "content": {
     	"title": "Video block"
     },
@@ -9,5 +9,6 @@
     "video.js": "^5.19.0",
     },
     "Dependecies": {
+      "bootstrap": "^4.0.0-alpha.6",
     }
   }
