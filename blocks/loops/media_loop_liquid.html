@@ -1,0 +1,15 @@
+{%% assing videos = item_types.video}
+{% for video in videos.items in %}
+  <div class="col-md-4 col-lg-3">
+    <div class="card card-black">
+      <a class="video-thumbnail img-fluid" href="#">
+        <img class="img-fluid" src="{{ video.contents.corver_art[0] }}" alt="Vido poster">
+        <button class="thumbnail-play-button"><i class="fa fa-play play-button"></i></button>
+      </a>
+      <div class="card-content-padding">
+        <h4 class="card-title text-white">Video title</h4>
+        {{video.contents.description}}
+      </div>
+      <a href="#" class="btn btn-outline-warning">More Info</a>
+    </div>
+  </div>
