@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Webpack Boilerplate</title>
     <link rel="stylesheet" href="./dist/styles.css">
-    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+    <style id="import-style"></style>
   </head>
   <body>
     <div class="container">
@@ -18,14 +18,13 @@
             <option value="./blocks/loops/media_loop_2/media_loop_2_block.html">Loop 2</option>
             <option value="./blocks/loops/media_loop_3/media_loop_3_block.html">Loop 3</option>
           </select>
-          <button type="button" class="btn btn-primary mt-2" id="import-block">Import</button>
-          <button type="button" class="btn btn-default mt-2" id="init-video">Init</button>
+          <button type="button" class="btn btn-primary mt-2" id="import-block">Add Block</button>
         </div>
       </div>
       <br><br><br>
 
+        <div class="row" id="block-container"></div>
 
-      <div class="row" id="block-container"></div>
 
     </div>
     <script src="./dist/bundle.js" type="text/javascript"></script>

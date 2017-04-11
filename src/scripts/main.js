@@ -7,18 +7,16 @@ import videojs from 'video.js'
 
 $(document).ready(function() {
 
-  w3IncludeHTML();
-
   $('#import-block').click( () => {
     var fileName = $('#block-file').val();
-    $('#block-container').append('<span class="block" w3-include-html="' + fileName + '"></span>')
-    w3IncludeHTML();
+    $.get(fileName, function (data) {
+        $('#block-container').append(data);
 
-  })
-
-  $('#init-video').click( () => {
-    videojs("main-video", {}, function(){
-      // Player (this) is initialized and ready.
+        if(fileName === './blocks/media_player/media_player_block.html') {
+          videojs("main-video", {}, function(){
+            // Player (this) is initialized and ready.
+          })
+        }
     });
   })
 });
