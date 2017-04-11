@@ -1,4 +1,4 @@
-@import "video";
+@import "video-player";
 
 body {
   background: black;
@@ -88,7 +88,7 @@ body {
     transition: border-color .4s,outline .4s,background-color .4s
 }
 
-.play-button-right {
+.play-button-left {
   top: -50px;
   left: 10%;
 }
