@@ -1,0 +1,15 @@
+{% assign videos = item_types.video %}
+  <div class="hidden-lg-up hidden-sm-down">
+    <hr>
+    <div class="row">
+      {% for videos in videos.items %}
+      <div class="col-md-6 card border-0 text-center" style="width: 20rem;">
+        <img class="card-img-top" src="{{video.contents.cover_art[0].source_url}}" alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">{{video.contents.title}}</h4>
+          <a href="#" class="btn btn-primary">Watch Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endfor %}

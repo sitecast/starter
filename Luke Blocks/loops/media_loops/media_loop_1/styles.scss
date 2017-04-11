@@ -1,0 +1,82 @@
+@media (min-width: 992px) {
+
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+.container {
+  margin-top: 20px;
+  width: 90%;
+}
+
+.card-inverse {
+  width: 400px;
+  margin-right: 1px;
+}
+
+.card {
+  border: 2px solid #424242;
+  margin-right: 5%;
+  width: 100%;
+}
+
+.more-content .btn {
+  display: none;
+}
+
+.show-row-first .card-title {
+  display: none;
+}
+
+.show-row-first .player-icon  {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px 0 0 10px;
+}
+
+ .card:hover {
+  cursor: pointer;
+}
+
+.card:hover .card-img {
+  filter: brightness(60%);
+  transition: 0.3s ease-in;
+  }
+  .show-row-first .card:hover .card-title {
+    display: block;
+    position: absolute;
+    transition: 0.3s ease-in;
+    color: #fff;
+    z-index: 10;
+    bottom: 0;
+  }
+  .card:hover .player-icon {
+    transition: 0.3s ease-in;
+    color: #DD2C00;
+  }
+
+  .more-content .card-title  {
+    position: absolute;
+    margin-bottom: 3px;
+    bottom: 0;
+    right: 0;
+    padding-right: 5px;
+  }
+
+   .more-content .card:hover .card-title {
+    display: none;
+  }
+
+  .more-content .card:hover .btn {
+    display: block;
+    transition: 0.6s ease-in;
+    position: absolute;
+    letter-spacing: 2px;
+    background-color: Transparent;
+    border-radius: 1;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+}
