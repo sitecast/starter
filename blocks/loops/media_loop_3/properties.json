@@ -10,5 +10,6 @@
     },
     "Dependecies": {
     },
-    "JavaScript": [""]
+    "JavaScript": [""],
+    "CSS": ["styles.scss"]
   }
