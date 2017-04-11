@@ -1,0 +1,15 @@
+{
+  "title": "Media Loop 3",
+    "description": "Media loop with grid",
+    "content": {
+    	"title": "Video block"
+    },
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
+    },
+    "Dependecies": {
+    },
+    "JavaScript": [""],
+    "CSS": ["styles.scss"]
+  }

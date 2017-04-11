@@ -1,0 +1,23 @@
+<div id="block_{{current_block.id}}" class="wrapper">
+  <div class="row">
+    <video id="my-video" class="video-js col-sm-12 mt-3 mb-3 ml-3 mr-3 ml-sm-0 mr-sm-0 col-lg-6 mr-lg-3" controls preload="auto"
+     poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+     <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4' />
+     <p class="vjs-no-js">
+       To view this video please enable JavaScript, and consider upgrading to a web browser that
+       <a href="http://videojs.com/html5-video-support/" target="_blank">supports HT3ML5 video</a>
+     </p>
+    </video>
+    <script src="http://vjs.zencdn.net/5.19.0/video.js"></script>
+    <div class="col-lg-5 col-md-12 col-sm-12 vid-info mt-lg-3 pr-lg-0 ml-lg-3 pl-sm-0 mr-sm-0 ml-lg-4">
+      <h3>{{current_item.contents.title}}</h3>
+      <p>{{current_item.contents.description}}</p>
+      <small class="text-muted "><i><span class="runtime">41:23</span> | <span class="post-date">03/31/2017</span> | <span>CC</span></i></small>
+      <nav class="breadcrumb pl-0 pt-3">
+        <a class="breadcrumb-item" href="#">{{current_item.contents.show_name}}</a>
+        <a class="breadcrumb-item" href="#">{{current_item.contents.show_season}}</a>
+        <a class="breadcrumb-item active" href="#">{{current_item.contents.show_episode}}</a>
+      </nav>
+    </div>
+  </div>
+</div>

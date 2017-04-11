@@ -1,0 +1,49 @@
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+#my-video {
+  border: 2px solid #424242;
+}
+
+.breadcrumb {
+    border: 0;
+    background-color: transparent;
+  }
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 768px)  and (max-width: 992px) {
+}
+
+@media (min-width: 992px) {
+
+  .vid-info {
+    width: 50%;
+  }
+
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1200px) {
+
+ }
+
+@media (max-width: 576px) {
+
+  #my-video {
+    height: 300px;
+  }
+
+  .vid-info {
+    width: 94%;
+  }
+}
