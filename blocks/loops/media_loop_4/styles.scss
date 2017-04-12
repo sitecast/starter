@@ -3,7 +3,6 @@ body {
   background-color: #000;
 }
 
-
 .card-title {
   display: none;
 }
@@ -13,45 +12,45 @@ body {
 }
 
 .card:hover {
- cursor: pointer;
-}
-
-.card:hover .card-img {
- filter: brightness(60%);
- transition: 0.3s ease-in;
- }
- .show-row-first .card:hover .card-title {
-   display: block;
-   position: absolute;
-   transition: 0.3s ease-in;
-   color: #fff;
-   z-index: 10;
-   bottom: 0;
- }
- .card:hover .player-icon {
-   transition: 0.3s ease-in;
-   color: #DD2C00;
- }
-
-@media (min-width: 576px) and (max-width: 767px) {
-
-
-
-.player-icon  {
-  position: absolute;
-  left: 0;
-  top: 0;
-  padding: 10px 0 0 10px;
-}
-
-.card:hover {
   cursor: pointer;
 }
 
 .card:hover .card-img {
   filter: brightness(60%);
   transition: 0.3s ease-in;
+ }
+
+.show-row-first .card:hover .card-title {
+  display: block;
+  position: absolute;
+  transition: 0.3s ease-in;
+  color: #fff;
+  z-index: 10;
+  bottom: 0;
+ }
+ .card:hover .player-icon {
+  transition: 0.3s ease-in;
+  color: #DD2C00;
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .player-icon  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0 0 10px;
   }
+
+  .card:hover {
+    cursor: pointer;
+  }
+
+  .card:hover .card-img {
+    filter: brightness(60%);
+    transition: 0.3s ease-in;
+  }
+
   .card:hover .card-title {
     display: block;
     position: absolute;
@@ -60,14 +59,16 @@ body {
     z-index: 10;
     bottom: 0;
   }
+
   .card:hover .player-icon {
     transition: 0.3s ease-in;
     color: #DD2C00;
   }
- }
+}
 
 
 @media (min-width: 768px)  and (max-width: 992px) {
+
   .show-row-first {
     display: inline-flex;
     flex-wrap: wrap;
@@ -75,8 +76,8 @@ body {
     justify-content: center;
     justify-content: space-around;
   }
-}
 
+}
 
 @media (min-width: 992px) {
 
@@ -105,6 +106,7 @@ body {
     right: 0;
     padding-right: 5px;
   }
+  
 }
 
 @media (max-width: 576px) {

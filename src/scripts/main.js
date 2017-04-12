@@ -7,6 +7,9 @@ import videojs from 'video.js'
 
 $(document).ready(function() {
 
+  const hello = "hello";
+  console.log(hello);
+
   $('#import-block').click( () => {
     var fileName = $('#block-file').val();
     $.get(fileName, function (data) {

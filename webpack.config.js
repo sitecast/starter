@@ -17,20 +17,11 @@ module.exports = {
     }, {
       test: /\.(eot|svg|ttf|woff(2)?)(\?v=\d+\.\d+\.\d+)?/,
       loaders: 'url-loader'
-    }
-/*
-    {
-      rules: [
-        { test: /\.js$/,
-          exclude: /node_modules/,
-          loader: "babel-loader",
-          query: {
-            presets: ['es2015', 'react']
-          }
-        }
-      ]
-      */
-    ]
+    }, {
+      use: 'babel-loader',
+      test: /\.js$/,
+      exclude: /node_modules/
+    }]
   },
   plugins: [
     new ExtractTextPlugin('styles.css')
