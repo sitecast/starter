@@ -1,6 +1,6 @@
 # Sitecast Starter App
 
-This is a descriton of the starter app.
+This is a descripton of the starter app.
 
 ## Getting Started
 
@@ -8,9 +8,9 @@ This is a descriton of the starter app.
 
         $ git clone https://github.com/sitecast/starter
 
-2. Change directory to `myapp`, and install dependencies:
+2. Change directory to `starter`, and install dependencies:
 
-        $ cd myapp
+        $ cd starter
         $ npm install
 
 3. Start the web server:
