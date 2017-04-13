@@ -1,0 +1,15 @@
+{
+  "title": "video_loop_3",
+    "description": "Media loop with grid layout, description content only visible on hover",
+    "content": {
+    	"title": "Video block"
+    },
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
+    },
+    "Dependecies": {
+    },
+    "JavaScript": [""],
+    "CSS": ["styles.scss"]
+  }

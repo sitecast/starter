@@ -1,12 +1,12 @@
 {
-  "title": "Media Loop 1",
-    "description": "Media loop with grid layout",
+  "title": "video_loop_4",
+    "description": "Video loop with grid layout",
     "content": {
     	"title": "Video block"
     },
   "devDependencies": {
-    "jquery": "^3.2.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "animate.css": "^3.5.2"
     },
     "Dependecies": {
     },

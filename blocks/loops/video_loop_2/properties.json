@@ -1,6 +1,6 @@
 {
-  "title": "Media Loop 2",
-    "description": "Media loop with column layout",
+  "title": "media_loop_2",
+    "description": "Video loop with column layout",
     "content": {
     	"title": "Video block"
     },

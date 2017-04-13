@@ -1,0 +1,25 @@
+app:
+  title: 'Sitecast Starter App'
+  description: "A starter app for the Sitecast platform"
+  author: 'Luke Keysboe and Chris Clifford'
+  version: '0.0.1'
+item_types:
+  member:
+    title: 'Video'
+    description: 'A video for the block.'
+    fields:
+      title: 'string'
+      description: 'string'
+      runtime: 'integer'
+      publish_date: 'string'
+      url: 'string'
+      poster_url: 'string'
+      tags: 'string'
+      links:
+        user: 'user'
+screens:
+  start:
+    title: 'Sitecast Starter App'
+    blocks:
+      - video_player
+      - media_loop_2
