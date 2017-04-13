@@ -1,6 +1,6 @@
 # Sitecast Starter App
 
-This is a descripton of the starter app.
+This is a description of the starter app.
 
 ## Getting Started
 

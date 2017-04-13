@@ -1,0 +1,116 @@
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+.card-title {
+  display: none;
+}
+
+.card {
+  border: 1px solid #424242;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card:hover .card-img {
+  filter: brightness(60%);
+  transition: 0.3s ease-in;
+ }
+
+.show-row-first .card:hover .card-title {
+  display: block;
+  position: absolute;
+  transition: 0.3s ease-in;
+  color: #fff;
+  z-index: 10;
+  bottom: 0;
+ }
+ .card:hover .player-icon {
+  transition: 0.3s ease-in;
+  color: #DD2C00;
+ }
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .player-icon  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0 0 10px;
+  }
+
+  .card:hover {
+    cursor: pointer;
+  }
+
+  .card:hover .card-img {
+    filter: brightness(60%);
+    transition: 0.3s ease-in;
+  }
+
+  .card:hover .card-title {
+    display: block;
+    position: absolute;
+    transition: 0.3s ease-in;
+    color: #fff;
+    z-index: 10;
+    bottom: 0;
+  }
+
+  .card:hover .player-icon {
+    transition: 0.3s ease-in;
+    color: #DD2C00;
+  }
+}
+
+
+@media (min-width: 768px)  and (max-width: 992px) {
+
+  .show-row-first {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  .show-row-first {
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .card  {
+    position: relative;
+  }
+
+  .show-row-first .player-icon  {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px 0 0 10px;
+  }
+
+  .more-content .card-title  {
+    position: absolute;
+    margin-bottom: 3px;
+    bottom: 0;
+    right: 0;
+    padding-right: 5px;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 94%;
+  }
+}

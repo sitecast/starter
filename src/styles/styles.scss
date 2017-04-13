@@ -142,6 +142,7 @@ body {
 
   .card {
     border: 1px solid #424242;
+    background-color: #000;
   }
 
   .card:hover {
@@ -165,6 +166,28 @@ body {
     transition: 0.3s ease-in;
     color: #DD2C00;
    }
+
+     .media-img:hover {
+   cursor: pointer;
+  }
+
+  .card-block:hover .media-img {
+   filter: brightness(60%);
+   transition: 0.3s ease-in;
+   }
+
+   .btn {
+     border-color: #2196F3;
+     color: #2196F3;
+   }
+
+  .media-img {
+    border: solid 2px #424242;
+  }
+
+  .btn:hover  {
+    background-color: #424242;
+  }
 
   @media (min-width: 576px) and (max-width: 767px) {
 

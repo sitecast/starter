@@ -1,0 +1,15 @@
+{
+  "title": "video_loop_4",
+    "description": "Video loop with grid layout",
+    "content": {
+    	"title": "Video block"
+    },
+  "devDependencies": {
+    "font-awesome": "^4.7.0",
+    "animate.css": "^3.5.2"
+    },
+    "Dependecies": {
+    },
+    "JavaScript": [""],
+    "CSS": ["styles.scss"]
+  }
