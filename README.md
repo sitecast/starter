@@ -24,6 +24,18 @@ This is a description of the starter app.
 5. Start developing your application. Checkout this link for more information:
 
     * [Sitecast Getting Started](http://sitecast.com)
+    
+## Creating Custom Blocks 
+
+1. Open starter app in text editor of your choice
+
+2. Inisde of 'blocks' folder located in starter/blocks, create a new folder with naming convention block_name.
+
+3. Within custom block folder creared in previous step, create block_name.html file containing custom block creation. Ensure proper liquid tags are in place
+
+4. Within custom block folder, creare propertie.json file containing the title, desription, and content of custom block. See properties.json file of other blocks for examples.
+
+    
 
 ## Contributing
 
