@@ -1,8 +1,8 @@
 @import "video-player";
 
-body {
-  background: black;
-  color: white;
+.grid-item {
+  width: 25%;
+  padding: 2px;
 }
 
 .video-section {
@@ -67,25 +67,25 @@ body {
 }
 
 .thumbnail-play-button {
-    margin-left: -1em;
-    margin-top: -1em;
-    width: 2em;
-    height: 2em;
-    border: none;
-    border-radius: 50%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding-left: 8px;
-    background-color: rgba(0,0,0,0.5);
-    font-size: 1.2em;
-    border-radius: 100%;
-    -webkit-transition: border-color .4s,outline .4s,background-color .4s;
-    -moz-transition: border-color .4s,outline .4s,background-color .4s;
-    -ms-transition: border-color .4s,outline .4s,background-color .4s;
-    -o-transition: border-color .4s,outline .4s,background-color .4s;
-    transition: border-color .4s,outline .4s,background-color .4s
+  margin-left: -1em;
+  margin-top: -1em;
+  width: 2em;
+  height: 2em;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding-left: 8px;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 1.2em;
+  border-radius: 100%;
+  -webkit-transition: border-color .4s,outline .4s,background-color .4s;
+  -moz-transition: border-color .4s,outline .4s,background-color .4s;
+  -ms-transition: border-color .4s,outline .4s,background-color .4s;
+  -o-transition: border-color .4s,outline .4s,background-color .4s;
+  transition: border-color .4s,outline .4s,background-color .4s
 }
 
 .play-button-left {
@@ -129,11 +129,6 @@ body {
 .breadcrumb {
     border: 0;
     background-color: transparent;
-  }
-
-  body {
-    color: #fff;
-    background-color: #000;
   }
 
   .card-title {

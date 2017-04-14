@@ -2,7 +2,8 @@ import $ from 'jquery';
 import Chart from 'chart.js';
 import css from './vendor.js';
 import style from '../styles/styles.scss';
-import videojs from 'video.js'
+import videojs from 'video.js';
+import Masonry from 'masonry-layout';
 
 
 $(document).ready(function() {
@@ -19,4 +20,13 @@ $(document).ready(function() {
         }
     });
   })
+
+
+  var elem = document.querySelector('.grid');
+
+  var msnry = new Masonry( '.grid', {
+    
+    itemSelector: '.grid-item'
+  });
+
 });

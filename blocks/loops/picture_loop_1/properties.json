@@ -1,0 +1,14 @@
+{
+  "title": "picture_loop_1",
+    "description": "Picture loop with responsive grid layout using masonry",
+    "content": {
+    	"title": "Picture block"
+    },
+  "devDependencies": {
+    "masonry-layout": "^4.1.1"
+    },
+    "Dependecies": {
+    },
+    "JavaScript": [""],
+    "CSS": ["styles.scss"]
+  }
