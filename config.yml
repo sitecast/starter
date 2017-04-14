@@ -4,7 +4,7 @@ app:
   author: 'Luke Keysboe and Chris Clifford'
   version: '0.0.1'
 item_types:
-  member:
+  video:
     title: 'Video'
     description: 'A video for the block.'
     fields:
@@ -15,8 +15,6 @@ item_types:
       url: 'string'
       poster_url: 'string'
       tags: 'string'
-      links:
-        user: 'user'
 screens:
   start:
     title: 'Sitecast Starter App'

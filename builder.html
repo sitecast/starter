@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sitecast Starter App</title>
+    <link rel="stylesheet" href="./dist/styles.css">
+    <style id="import-style"></style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Block Dev</h1>
+      <div class="form-group">
+        <div class="col-4">
+          <label for="exampleSelect1">Select Block</label>
+          <select class="form-control" id="block-file">
+            <option value="./blocks/media_player/media_player_block.html">Media Player 1</option>
+            <option value="./blocks/media_player_2/media_block_liquid.html">Media Player 2</option>
+            <option value="./blocks/loops/video_loop_1/video_loop_1_block.html">Video Loop 1</option>
+            <option value="./blocks/loops/video_loop_2/video_loop_2_block.html">Video Loop 2</option>
+            <option value="./blocks/loops/video_loop_3/video_loop_3_block.html">Video Loop 3</option>
+            <option value="./blocks/loops/video_loop_4/video_loop_4_liquid.html">Video Loop 4</option>
+            <option value="./blocks/loops/picture_loop_1/picture_loop_1_block.html">Picture Loop</option>
+          </select>
+          <button type="button" class="btn btn-primary mt-2" id="import-block">Add Block</button>
+        </div>
+      </div>
+      <br><br><br>
+
+        <div class="row" id="block-container"></div>
+
+    </div>
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+  </body>
+</html>
