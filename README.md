@@ -24,8 +24,8 @@ This is a description of the starter app.
 5. Start developing your application. Checkout this link for more information:
 
     * [Sitecast Getting Started](http://sitecast.com)
-    
-## Creating Custom Blocks 
+
+## Creating Custom Blocks
 
 1. Open starter app in text editor of your choice
 
@@ -36,7 +36,26 @@ This is a description of the starter app.
 4. Within custom block folder, creare propertie.json file containing the title, desription, and content of custom block. See properties.json file of other blocks for examples.
 
 5. Be sure to include custom styling in styles.scss file located in starter/src/styles/styles.scss
-    
+
+
+## Adding Additional Dependencies
+
+1. Make sure you are in the project directory:
+
+        $ cd [project-name]
+
+2. Install the dependency via npm:
+
+        $ npm install [dependency name] --save-dev
+
+3. Import needed module into main.js
+
+        go to './src/scripts/main.js'
+        add import statement e.g. import Chart from 'chart.js';
+
+4. Bundle your your code via webpack
+
+        $ nmp run build 
 
 ## Contributing
 
