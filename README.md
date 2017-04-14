@@ -35,6 +35,7 @@ This is a description of the starter app.
 
 4. Within custom block folder, creare propertie.json file containing the title, desription, and content of custom block. See properties.json file of other blocks for examples.
 
+5. Be sure to include custom styling in styles.scss file located in starter/src/styles/styles.scss
     
 
 ## Contributing
