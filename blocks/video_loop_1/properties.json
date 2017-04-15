@@ -1,6 +1,8 @@
 {
   "title": "video_loop_1",
     "description": "Video loop with grid layout",
+    "cover art": "/picture.jpg",
+    "link": "http://link.com",
     "content": {
     	"title": "Video block"
     },

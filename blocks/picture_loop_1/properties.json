@@ -1,0 +1,29 @@
+{
+  "title": "video_loop_1",
+    "description": "Video loop with grid layout",
+    "cover art": "/picture.jpg",
+    "link": "http://link.com",
+    "content": {
+    	"title": "Video block"
+    },
+    "properties": {
+      "background-color": {
+        "Dark": "bg-inverse",
+        "Light": "bg-faded",
+        "Primary": "bg-primary"
+        },
+      "text-color"
+      "border-radius"
+      ""
+
+
+    }
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
+    },
+    "Dependecies": {
+    },
+    "JavaScript": [""],
+    "CSS": ["styles.scss"]
+  }
