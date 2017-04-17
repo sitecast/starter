@@ -1,17 +1,22 @@
 {
   "title": "Media player block",
-    "description": "Video.js media player with responsive sizing",
-    "content": {
-    	"title": "Video block"
-    },
+  "description": "Video.js media player with responsive sizing",
+  "content": {
+    "title": "Video block"
+  },
   "devDependencies": {
     "jquery": "^3.2.1",
-    "video.js": "^5.19.0",
-    },
-    "Dependecies": {
-      "bootstrap": "^4.0.0-alpha.6",
-      "font-awesome": "^4.7.0"
-    },
-    "JavaScript": ["main.js", "vendor.js"],
-    "CSS": ["styles.scss"]
-  }
+    "video.js": "^5.19.0"
+  },
+  "Dependecies": {
+    "bootstrap": "^4.0.0-alpha.6",
+    "font-awesome": "^4.7.0"
+  },
+  "JavaScript": [
+    "main.js",
+    "vendor.js"
+  ],
+  "CSS": [
+    "styles.scss"
+  ]
+}
