@@ -17,7 +17,7 @@ item_types:
       tags: 'string'
 screens:
   start:
-    title: 'Sitecast Starter App'
+    title: 'Start Screen'
     blocks:
-      - video_player
+      - media_player_block
       - media_loop_2
