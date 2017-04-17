@@ -1,17 +1,20 @@
 {
   "title": "video_loop_1",
-    "description": "Video loop with grid layout",
-    "cover art": "/picture.jpg",
-    "link": "http://link.com",
-    "content": {
-    	"title": "Video block"
-    },
+  "description": "Video loop with grid layout",
+  "cover art": "/picture.jpg",
+  "link": "http://link.com",
+  "content": {
+    "title": "Video block"
+  },
   "devDependencies": {
     "jquery": "^3.2.1",
     "font-awesome": "^4.7.0"
-    },
-    "Dependecies": {
-    },
-    "JavaScript": [""],
-    "CSS": ["styles.scss"]
-  }
+  },
+  "Dependecies": {},
+  "JavaScript": [
+    ""
+  ],
+  "CSS": [
+    "styles.scss"
+  ]
+}
