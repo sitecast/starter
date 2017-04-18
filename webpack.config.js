@@ -15,12 +15,19 @@ module.exports = {
       test: /\.css$/,
       use: ExtractTextPlugin.extract({fallback: 'style-loader', use: 'css-loader'})
     }, {
-      test: /\.(eot|svg|ttf|woff(2)?)(\?v=\d+\.\d+\.\d+)?/,
-      loaders: 'url-loader'
+      test: /\.(ttf|otf|eot|svg|woff(2)?)(\?[a-z0-9]+)?$/,
+      loader: 'file-loader',
+      options: {
+        name: 'fonts/[name].[ext]',
+        publicPath: '../dist/'
+      }
     }, {
-      use: 'babel-loader',
       test: /\.js$/,
-      exclude: /node_modules/
+      exclude: /node_modules/,
+      loader: 'babel-loader',
+      options: {
+          presets: ['env']
+        }
     }]
   },
   plugins: [
