@@ -24,7 +24,10 @@
     <meta property="og:description" content="{{ current_resource.description }}">
     <meta property="og:image" content="{{ current_resource.cover_art }}">
     <meta property="og:url" content="{{ current_resource.canonical_url }}">
+    <meta property="og:site_name" content="{{ current_stack.title }}">
+    <meta name="twitter:image:alt" content="{{ current_resource.cover_art.title }}">
     <meta name="twitter:card" content="summary_large_image">  
+
 
     {{ content_for_head }}
     
