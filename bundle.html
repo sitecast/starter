@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>{{ current_resource.title }} :: {{ current_stack.title }}</title>
+
+    {{ csrf_meta_tags }}
+
+    <meta name="description" content="{{ current_resource.description }}">
+    <meta name="robots" content="{{ current_resource.meta_robots }}">
+    <link rel="canonical" href="{{ current_resource.canonical_url }}" />
+
+    <!-- Bundled Styles -->
+    <link rel="stylesheet" href="./dist/styles.css">
+
+    <!-- Sitecast Styles -->
+    {{ style_tags }}
+
+    <!-- Facebook Open Graph -->
+    {{ open_graph_tags }}
+
+    <!-- Twitter Cards -->
+    {{ twitter_tags }}
+
+    <!-- Cloudinary -->
+    {{ cloudinary_tags }}
+
+  </head>
+
+  <body>
+
+    <!-- Screen blocks -->
+    {{ yield }}
+
+    <script src="./dist/bundle.js" type="text/javascript"></script>
+
+    <!-- Screen blocks -->
+    {{ content_for_body }}
+  </body>
+</html>
