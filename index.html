@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-
-    <meta charset="utf-8" />
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <title>{% if current_resource %}{{ current_resource.title }} :: {% endif %}{{ current_stack.title }}</title>
 
-    {{ seo_tags }}
+    <meta name="description" content="{{ current_resource.description }}">
+    <meta name="robots" content="{{ current_resource.meta_robots }}">
+    <meta name="googlebot" content="noodp">
+    <link rel="canonical" href="{{ current_resource.canonical_url }}">
 
     {{ css_bundle }}
     
@@ -16,9 +20,11 @@
 
     {{ cloudinary_tags }}
 
-    {{ open_graph_tags }}
-
-    {{ twitter_tags }}
+    <meta property="og:title" content="{{ current_resource.title }}">
+    <meta property="og:description" content="{{ current_resource.description }}">
+    <meta property="og:image" content="{{ current_resource.cover_art }}">
+    <meta property="og:url" content="{{ current_resource.canonical_url }}">
+    <meta name="twitter:card" content="summary_large_image">  
 
     {{ content_for_head }}
     
