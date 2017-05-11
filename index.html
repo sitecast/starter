@@ -8,6 +8,8 @@
 
     <title>{% if current_resource %}{{ current_resource.title }} :: {% endif %}{{ current_stack.title }}</title>
 
+    {{ csrf_meta_tags }}
+
     <meta name="description" content="{{ current_resource.description }}">
     <meta name="robots" content="{{ current_resource.meta_robots }}">
     <meta name="googlebot" content="noodp">
