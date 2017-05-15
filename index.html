@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <title>{% if current_resource %}{{ current_resource.title }} :: {% endif %}{{ current_stack.title }}</title>
+    <title>{{ current_resource.title }} :: {{ current_stack.title }}</title>
 
     {{ csrf_meta_tags }}
 
@@ -16,9 +16,7 @@
     <link rel="canonical" href="{{ current_resource.canonical_url }}">
 
     {{ css_bundle }}
-    
-    {{ js_bundle }}
-    
+        
     <meta property="og:title" content="{{ current_resource.title }}">
     <meta property="og:description" content="{{ current_resource.description }}">
     <meta property="og:image" content="{{ current_resource.cover_art }}">
@@ -34,6 +32,8 @@
   <body>
     
     {{ yield }}
+ 
+    {{ js_bundle }}
     
     {{ content_for_body }}  
 
