@@ -8,14 +8,10 @@
 
     <title>{{ current_resource.title }} :: {{ current_stack.title }}</title>
 
-    {{ csrf_meta_tags }}
-
     <meta name="description" content="{{ current_resource.description }}">
     <meta name="robots" content="{{ current_resource.meta_robots }}">
     <meta name="googlebot" content="noodp">
     <link rel="canonical" href="{{ current_resource.canonical_url }}">
-
-    {{ css_bundle }}
         
     <meta property="og:title" content="{{ current_resource.title }}">
     <meta property="og:description" content="{{ current_resource.description }}">
@@ -25,17 +21,19 @@
     <meta name="twitter:image:alt" content="{{ current_resource.cover_art.title }}">
     <meta name="twitter:card" content="summary_large_image">  
 
-    {{ content_for_head }}
+    {{ css_bundle_tag }}
+
+    {{ current_screen.head }}
     
   </head>
 
   <body>
-    
-    {{ yield }}
- 
-    {{ js_bundle }}
-    
-    {{ content_for_body }}  
+
+    {{ current_screen.body }}
+
+    {{ js_bundle_tag }}
+
+    {{ current_screen.foot }}
 
   </body>
 </html>
